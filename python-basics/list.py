@@ -1,4 +1,4 @@
-# just like array list are the collection of items
+# just like array list are the  ordered collection of items
 list_1 = [1,2,3,4]
 list_2 = ['a','b','c']
 list_3 = [1,2,'a',True,{}]
@@ -112,3 +112,20 @@ print(b) #2
 print(c) #3
 print(other) #[4,5]
 print(d) # 6
+
+
+
+my_list = [
+  {
+    'a' :[1,2,3],
+    'b' : 'hello',
+    'c' : True
+  },
+  {
+    'a' :[4,5,6],
+    'b' : 'hi',
+    'c' : True
+  }
+]
+
+print(my_list [1]['a'][2]) #6
